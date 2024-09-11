@@ -5,6 +5,10 @@ const DashboardPage = React.lazy(() => import('@/pages/layout/DashboardLayout'))
 const DashboardTable = React.lazy(() => import('@/components/dashboard/dashboard-table'));
 export const ROUTER = createBrowserRouter([
   {
+    path: '/',
+    element: <LoginPage />,
+  },
+  {
     path: '/login',
     element: <LoginPage />,
   },
