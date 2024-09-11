@@ -13,4 +13,11 @@ export default defineConfig({
       '@': path.resolve('./src'),
     },
   },
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
+    },
+  },
 });
